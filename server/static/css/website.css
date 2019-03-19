@@ -1,0 +1,82 @@
+* {
+  border-radius: 0 !important;
+}
+body {
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+#index_banner {
+  height: 240px;
+  overflow: hidden;
+}
+.navbar {
+  border-radius: 0 !important;
+}
+.main_view_list {
+  list-style: none;
+  padding: 0;
+}
+.main_view_list .main_view_list_item .title {
+  text-align: center;
+}
+.main_view_list .main_view_list_item .info {
+  text-align: center;
+}
+.main_view_list .main_view_list_item .info > span {
+  font-size: 12px;
+  color: #999;
+}
+.main_view_list .main_view_list_item .info .begin_time:before {
+  content: "•";
+}
+.main_view_list .main_view_list_item .item_title_image {
+  width: 100%;
+  overflow: hidden;
+}
+.main_view_list .main_view_list_item .item_title_image > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.main_view_list .main_view_list_item .sub_title {
+  padding: 15px 0;
+  text-indent: 2em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2em;
+}
+.index_footer {
+  background-color: #000;
+  text-align: center;
+  padding: 25px;
+}
+.index_footer > ul {
+  list-style: none;
+  padding: 0;
+  white-space: nowrap;
+}
+.index_footer > ul > li {
+  display: inline-block;
+  margin: 15px;
+  color: #FFF;
+}
+.sidebar_list_ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar_list_ul > li {
+  display: block;
+}
+.sidebar_list_ul > li > a {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 2em;
+}
+.top_ad_photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=website.css.map */

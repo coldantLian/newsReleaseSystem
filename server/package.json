@@ -1,0 +1,30 @@
+{
+  "name": "c2_website_server",
+  "version": "1.0.0",
+  "description": "网站服务端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.0.0",
+    "es6-promise": "^4.1.1",
+    "express": "^4.15.3",
+    "fs": "^0.0.1-security",
+    "isomorphic-fetch": "^2.2.1",
+    "md5": "^2.2.1",
+    "module": "^1.2.5",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.3",
+    "net": "^1.0.2",
+    "next": "^2.4.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "tls": "^0.0.1",
+    "ueditor": "^1.2.3",
+    "uuid": "^3.1.0"
+  }
+}

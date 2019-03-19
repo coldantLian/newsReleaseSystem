@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;d:/mongodb/bin;C:\Program Files\nodejs\;D:\Program Files\PuTTY\;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\xd198\AppData\Local\Microsoft\WindowsApps;C:\Users\xd198\AppData\Roaming\npm;C:\Users\xd198\AppData\Local\Yarn\.bin
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  7.7.3
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "c2_website_server",
+    "version": "1.0.0",
+    "description": "网站服务端",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.17.2",
+      "express": "^4.15.3",
+      "mongoose": "^4.11.3",
+      "next": "^2.4.7",
+      "react": "^15.6.1",
+      "react-dom": "^15.6.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: ENOENT: no such file or directory, stat 'D:\work\student\website_server\node_modules\semver'

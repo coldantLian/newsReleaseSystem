@@ -1,0 +1,94 @@
+ 
+ *{
+     border-radius: 0 !important;
+ }
+ body{
+     font-size: 14px;
+     font-family: "微软雅黑";
+ }
+ 
+//首页顶部的banner轮播
+#index_banner{
+    height:240px;
+    overflow: hidden;    
+}
+
+.navbar{
+    border-radius: 0 !important;
+}
+
+
+//首页主内容文章列表样式
+.main_view_list{
+    list-style: none;
+    padding: 0;
+    .main_view_list_item{
+        .title{
+            text-align: center;;
+        }
+        .info{
+            text-align: center;
+            &>span{
+                font-size: 12px;
+                color:#999;
+            }
+            .begin_time:before{
+                content:"•";
+            }
+        }
+        .item_title_image{
+            width:100%;overflow: hidden;
+            &>img{
+                display: block;
+                width: 100%;
+                height:auto;
+            }
+        }
+        .sub_title{
+            padding:15px 0;
+            text-indent: 2em;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 2em;
+        }
+    }
+}
+//首页类型页脚 
+.index_footer{
+    background-color:#000;
+    text-align: center;
+    padding:25px;
+    &>ul{
+        list-style: none;
+        padding: 0;
+        white-space: nowrap;
+        &>li{
+            display:inline-block;
+            margin:15px;
+            color:#FFF;
+            
+        }
+    }
+}
+
+//边栏中的列表样式
+.sidebar_list_ul{
+    list-style: none;
+    padding: 0;
+    &>li{
+        display:block;
+        &>a{
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            line-height: 2em;
+        }
+    }
+}
+
+//页面顶部广告样式
+.top_ad_photo{
+    display:block;
+    width:100%;height:auto; 
+}

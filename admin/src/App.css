@@ -1,0 +1,95 @@
+@import '~antd/dist/antd.css';
+
+html,body{
+  height:100%;
+}
+
+#root {
+  height:100%;
+  overflow: auto;
+}
+#root>.ant-layout{
+  min-height:100%;
+}
+
+#root .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+/* 右上角的用户菜单 */
+#root .user_menu{
+  float:right;
+  
+  padding:12px 12px 0 0  ;
+}
+#root .ant-dropdown-link.active .ant-avatar-icon{
+   background-color:#108ee9; 
+}
+
+#root .trigger:hover {
+  color: #108ee9;
+}
+
+#root .logo {
+  height: 32px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px;
+  overflow: hidden;
+}
+
+#root .logo .logo_title{
+  color:#FFF;
+  line-height:2.5em;
+  text-align: center;
+  display: block;
+
+}
+
+/* 表单中单图片上传按钮的样式 */
+.selectOneFile{
+  width:180px;height:180px;
+  border:1px solid #aaa;
+  line-height: 180px;
+}
+
+.uploadedOneFile{
+  display:block;
+  width:180px;height:180px;
+}
+
+/*页面遮罩效果样式*/
+.view_mask{
+  position:absolute;
+  left:0;right:0;top:0;bottom:0;
+  z-index: 999;
+  overflow: hidden;
+}
+.view_mask .mask_bg{
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index: 0;
+  border-top:0px solid rgba(192,192,192,0.3);
+  border-bottom:0px solid rgba(192,192,192,0.3);
+  transition: all 0.5s ease;
+}
+
+/* 列表中的时间项样式 */
+.tableColumnTime{
+  height:32px;
+  line-height:1.2em;
+  margin: -16px 0;
+}
+.tableColumnTime>span{
+  display: block;
+}
+.tableColumnTime.active{
+  color:#F00;
+}
